@@ -25,15 +25,16 @@ namespace AdventOfCode2024
             PriorityQueue<long, long> group1 = new();
             PriorityQueue<long, long> group2 = new();
 
-            foreach (var line in RawInput)
-            {
-                Match match = Regex.Match(line, pattern);
-
-                long left = long.Parse(match.Groups[1].Value);
-                long right = long.Parse(match.Groups[2].Value);
-                group1.Enqueue(left, left);
-                group2.Enqueue(right, right);
-            }
+            RawInput
+                .Select(line => Regex.Match(line, pattern))
+                .ToList()
+                .ForEach(match =>
+                {
+                    long left = long.Parse(match.Groups[1].Value);
+                    long right = long.Parse(match.Groups[2].Value);
+                    group1.Enqueue(left, left);
+                    group2.Enqueue(right, right);
+                });
 
             long totalDifference = 0;
 
@@ -58,35 +59,23 @@ namespace AdventOfCode2024
             string[] RawInput = System.IO.File.ReadAllLines(inputName);
             string pattern = @"(\d+)\s+(\d+)";
 
-            List<long> group1 = new();
-            Dictionary<long, int> group2 = new(); 
+            List<long> group1 = [];
+            Dictionary<long, int> group2 = [];
 
-            foreach (var line in RawInput)
-            {
-                Match match = Regex.Match(line, pattern);
-
-                long left = long.Parse(match.Groups[1].Value);
-                long right = long.Parse(match.Groups[2].Value);
-                group1.Add(left);
-                if (group2.ContainsKey(right))
+            RawInput
+                .Select(line => Regex.Match(line, pattern))
+                .ToList()
+                .ForEach(match =>
                 {
-                    group2[right] += 1;
-                }
-                else
-                {
-                    group2.Add(right, 1);
-                }
-            }
+                    long left = long.Parse(match.Groups[1].Value);
+                    long right = long.Parse(match.Groups[2].Value);
+                    group1.Add(left);
+                    group2[right] = group2.GetValueOrDefault(right) + 1;
+                });
 
-            long similarityScore = 0;
-
-            foreach (long i in group1)
-            {
-                if (group2.ContainsKey(i))
-                {
-                    similarityScore += group2[i] * i;
-                }
-            }
+            long similarityScore = group1
+                .Where(i => group2.TryGetValue(i, out _))
+                .Sum(i => group2[i] * i);
 
             return similarityScore.ToString();
         }
