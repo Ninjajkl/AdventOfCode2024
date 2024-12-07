@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-
-namespace AdventOfCode2024
+﻿namespace AdventOfCode2024
 {
     internal class Day02
     {
@@ -53,7 +45,7 @@ namespace AdventOfCode2024
                         var subset = levels.Where((_, index) => index != i).ToList();
                         return (subset.SequenceEqual(subset.OrderBy(n => n)) ||
                               subset.SequenceEqual(subset.OrderByDescending(n => n))) &&
-                             subset.Zip(subset.Skip(1), (a, b) => Math.Abs(a - b)) 
+                             subset.Zip(subset.Skip(1), (a, b) => Math.Abs(a - b))
                                    .All(diff => diff >= 1 && diff <= 3);
                     }))
                 .ToString();

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace AdventOfCode2024
 {
@@ -21,7 +14,7 @@ namespace AdventOfCode2024
         /// </returns>
         public string Part1(string inputName)
         {
-            string RawInput = string.Join("",System.IO.File.ReadAllLines(inputName));
+            string RawInput = string.Join("", System.IO.File.ReadAllLines(inputName));
             return Regex.Matches(RawInput, @"(?:mul\((\d*)\,(\d*)\))")
                 .Cast<Match>()
                 .Select(match => int.Parse(match.Groups[1].Value) * int.Parse(match.Groups[2].Value))
@@ -46,7 +39,7 @@ namespace AdventOfCode2024
             foreach (var i in NewInput)
             {
                 int index = i.IndexOf("do()");
-                if(index == -1)
+                if (index == -1)
                 {
                     continue;
                 }

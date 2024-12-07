@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-
-namespace AdventOfCode2024
+﻿namespace AdventOfCode2024
 {
     internal class Day04
     {
@@ -29,7 +20,7 @@ namespace AdventOfCode2024
                             if (ca * 3 + c < 0 || ca * 3 + c >= RawInput[r].Length) { continue; }
                             if (ra == 0 && ca == 0) { continue; }
 
-                            if (RawInput[ra + r][ca + c] == 'M' && 
+                            if (RawInput[ra + r][ca + c] == 'M' &&
                                 RawInput[ra * 2 + r][ca * 2 + c] == 'A' &&
                                 RawInput[ra * 3 + r][ca * 3 + c] == 'S') { xmasTotal++; }
                         }
@@ -54,7 +45,7 @@ namespace AdventOfCode2024
                     if (c - 1 < 0 || c + 1 >= RawInput[r].Length) { continue; }
 
                     char[] chars = [RawInput[r - 1][c - 1], RawInput[r - 1][c + 1], RawInput[r + 1][c - 1], RawInput[r + 1][c + 1]];
-                    
+
                     if (chars[0] != chars[3] &&
                         chars[1] != chars[2] &&
                         "MS".Contains(chars[0]) &&
