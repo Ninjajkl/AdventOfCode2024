@@ -10,7 +10,7 @@
                 .Select(x => x - '0')
                 .ToList();
 
-            List<(int value, int index)> files = convertedInt
+            List<(int value, int id)> files = convertedInt
                 .Where((c, index) => index % 2 == 0)
                 .Select((value, index) => (value, index))
                 .ToList();
@@ -19,17 +19,18 @@
                 .Where((c, index) => index % 2 == 1)
                 .ToList();
 
-            List<long> finalList = [];
+            long checkSum = 0;
+            int currIndex = 0;
 
             bool isFile = true;
             while (files.Count > 0)
             {
                 if (isFile)
                 {
-                    (int value, int index) currVal = files[0];
+                    (int value, int id) currVal = files[0];
                     for (int j = 0; j < currVal.value; j++)
                     {
-                        finalList.Add(currVal.index);
+                        checkSum += currVal.id * currIndex++;
                     }
                     files.RemoveAt(0);
                     isFile = false;
@@ -43,9 +44,9 @@
                         {
                             break;
                         }
-                        (int value, int index) currVal = files.Last();
-                        finalList.Add(files.Last().index);
-                        files[^1] = new(currVal.value - 1, currVal.index);
+                        (int value, int id) currVal = files.Last();
+                        checkSum += currVal.id * currIndex++;
+                        files[^1] = new(currVal.value - 1, currVal.id);
                         if (currVal.value == 1)
                         {
                             files.RemoveAt(files.Count - 1);
@@ -56,8 +57,9 @@
                 }
             }
 
-            return finalList.Select((n, index) => n*index).Sum().ToString();
+            return checkSum.ToString();
         }
+
 
         public string Part2(string inputName)
         {
