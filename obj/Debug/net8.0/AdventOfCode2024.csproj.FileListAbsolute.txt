@@ -13,3 +13,18 @@ C:\Users\Ninja\Documents\Programming\AdventOfCode\AdventOfCode2024\obj\Debug\net
 C:\Users\Ninja\Documents\Programming\AdventOfCode\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.pdb
 C:\Users\Ninja\Documents\Programming\AdventOfCode\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.genruntimeconfig.cache
 C:\Users\Ninja\Documents\Programming\AdventOfCode\AdventOfCode2024\obj\Debug\net8.0\ref\AdventOfCode2024.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\bin\Debug\net8.0\AdventOfCode2024.exe
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\bin\Debug\net8.0\AdventOfCode2024.deps.json
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\bin\Debug\net8.0\AdventOfCode2024.runtimeconfig.json
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\bin\Debug\net8.0\AdventOfCode2024.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\bin\Debug\net8.0\AdventOfCode2024.pdb
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.AssemblyInfoInputs.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.AssemblyInfo.cs
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.csproj.CoreCompileInputs.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.sourcelink.json
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\refint\AdventOfCode2024.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.pdb
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\AdventOfCode2024.genruntimeconfig.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\AdventOfCode2024\obj\Debug\net8.0\ref\AdventOfCode2024.dll
