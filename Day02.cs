@@ -20,7 +20,7 @@
                 .Count(levels => (levels.SequenceEqual(levels.OrderBy(n => n)) ||
                                  levels.SequenceEqual(levels.OrderByDescending(n => n))) &&
                                  levels.Zip(levels.Skip(1), (a, b) => Math.Abs(a - b))
-                                        .All(diff => diff >= 1 && diff <= 3))
+                                        .All(diff => diff is >= 1 and <= 3))
                 .ToString();
         }
 
@@ -42,11 +42,11 @@
                 .Count(levels => Enumerable.Range(0, levels.Count)
                     .Any(i =>
                     {
-                        var subset = levels.Where((_, index) => index != i).ToList();
+                        List<int> subset = levels.Where((_, index) => index != i).ToList();
                         return (subset.SequenceEqual(subset.OrderBy(n => n)) ||
                               subset.SequenceEqual(subset.OrderByDescending(n => n))) &&
                              subset.Zip(subset.Skip(1), (a, b) => Math.Abs(a - b))
-                                   .All(diff => diff >= 1 && diff <= 3);
+                                   .All(diff => diff is >= 1 and <= 3);
                     }))
                 .ToString();
         }

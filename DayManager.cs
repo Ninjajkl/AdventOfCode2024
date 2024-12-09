@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Reflection;
 
-namespace AdventOfCode2023
+namespace AdventOfCode2024
 {
-    class DayManager
+    internal class DayManager
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             while (true)
             {
                 Console.Write("Run Everything? (y/n): ");
                 string userInput = Console.ReadLine().ToLower();
 
-                if (userInput != "y" && userInput != "")
+                if (userInput is not "y" and not "")
                 {
                     break; // Exit the loop if the user doesn't enter "y" or press Enter
                 }
@@ -28,7 +24,7 @@ namespace AdventOfCode2023
             {
                 Console.Write("\nRun a Part? (y/n): ");
                 string quitInput = Console.ReadLine().ToLower();
-                if (quitInput != "y" && quitInput != "")
+                if (quitInput is not "y" and not "")
                 {
                     return;
                 }
@@ -72,7 +68,7 @@ namespace AdventOfCode2023
             }
         }
 
-        static void RunAllDays()
+        private static void RunAllDays()
         {
             //Get all types in the current assembly
             Assembly assembly = Assembly.GetExecutingAssembly();
@@ -95,14 +91,14 @@ namespace AdventOfCode2023
             }
         }
 
-        static Type GetDayType(string dayToRun)
+        private static Type GetDayType(string dayToRun)
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
             return assembly.GetTypes()
                 .FirstOrDefault(type => type.IsClass && type.Name.Equals(dayToRun));
         }
 
-        static bool RunDayPart(Type dayType, string userPartInput)
+        private static bool RunDayPart(Type dayType, string userPartInput)
         {
             // Check for and invoke Part1 or Part2 method based on user input
             MethodInfo? partMethod = dayType.GetMethod($"Part{userPartInput}", BindingFlags.Instance | BindingFlags.Public);
@@ -136,8 +132,8 @@ namespace AdventOfCode2023
                 // Create an instance of the specified DayXX class
                 object? dayInstance = Activator.CreateInstance(dayType);
 
-                var stopwatchPart = Stopwatch.StartNew();
-                var answer = partMethod.Invoke(dayInstance, new object[] { $"..\\..\\..\\Inputs\\{dayType.Name + userStringArgument}.txt" });
+                Stopwatch stopwatchPart = Stopwatch.StartNew();
+                object? answer = partMethod.Invoke(dayInstance, [$"..\\..\\..\\Inputs\\{dayType.Name + userStringArgument}.txt"]);
                 stopwatchPart.Stop();
                 Console.WriteLine($"\n    Result: {answer}");
                 Console.WriteLine($"\n    Time Elapsed: {stopwatchPart.Elapsed.TotalSeconds} seconds");
@@ -146,7 +142,7 @@ namespace AdventOfCode2023
             return false;
         }
 
-        static bool RunDayPart(Type dayType, string userPartInput, string defaultStringArgument)
+        private static bool RunDayPart(Type dayType, string userPartInput, string defaultStringArgument)
         {
             //Check for and invoke Part1 or Part2 method based on user input
             MethodInfo? partMethod = dayType.GetMethod($"Part{userPartInput}", BindingFlags.Instance | BindingFlags.Public);
@@ -154,8 +150,8 @@ namespace AdventOfCode2023
             {
                 Console.WriteLine($"\n  Running Part{userPartInput}:");
 
-                var stopwatchPart = Stopwatch.StartNew();
-                var answer = partMethod.Invoke(Activator.CreateInstance(dayType), new object[] { $"..\\..\\..\\Inputs\\{dayType.Name + defaultStringArgument}.txt" });
+                Stopwatch stopwatchPart = Stopwatch.StartNew();
+                object? answer = partMethod.Invoke(Activator.CreateInstance(dayType), [$"..\\..\\..\\Inputs\\{dayType.Name + defaultStringArgument}.txt"]);
                 stopwatchPart.Stop();
 
                 Console.WriteLine($"\n    Result: {answer}");
@@ -165,7 +161,7 @@ namespace AdventOfCode2023
             return false;
         }
 
-        static bool IsSpecialStringArgument(string userInput, out string specialValue)
+        private static bool IsSpecialStringArgument(string userInput, out string specialValue)
         {
             specialValue = string.Empty;
 

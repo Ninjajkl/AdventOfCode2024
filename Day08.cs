@@ -18,7 +18,7 @@
                     {
                         if (!antennaLocations.ContainsKey(RawInput[r][c]))
                         {
-                            antennaLocations[RawInput[r][c]] = new();
+                            antennaLocations[RawInput[r][c]] = [];
                         }
                         antennaLocations[RawInput[r][c]].Add((r, c));
                     }
@@ -62,7 +62,7 @@
                     {
                         if (!antennaLocations.ContainsKey(RawInput[r][c]))
                         {
-                            antennaLocations[RawInput[r][c]] = new();
+                            antennaLocations[RawInput[r][c]] = [];
                         }
                         antennaLocations[RawInput[r][c]].Add((r, c));
                     }

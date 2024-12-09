@@ -16,13 +16,13 @@
                     {
                         for (int ca = -1; ca <= 1; ca++)
                         {
-                            if (ra * 3 + r < 0 || ra * 3 + r >= RawInput.Length) { continue; }
-                            if (ca * 3 + c < 0 || ca * 3 + c >= RawInput[r].Length) { continue; }
+                            if ((ra * 3) + r < 0 || (ra * 3) + r >= RawInput.Length) { continue; }
+                            if ((ca * 3) + c < 0 || (ca * 3) + c >= RawInput[r].Length) { continue; }
                             if (ra == 0 && ca == 0) { continue; }
 
                             if (RawInput[ra + r][ca + c] == 'M' &&
-                                RawInput[ra * 2 + r][ca * 2 + c] == 'A' &&
-                                RawInput[ra * 3 + r][ca * 3 + c] == 'S') { xmasTotal++; }
+                                RawInput[(ra * 2) + r][(ca * 2) + c] == 'A' &&
+                                RawInput[(ra * 3) + r][(ca * 3) + c] == 'S') { xmasTotal++; }
                         }
                     }
 

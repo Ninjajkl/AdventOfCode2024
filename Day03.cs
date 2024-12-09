@@ -36,14 +36,14 @@ namespace AdventOfCode2024
             string RawInput = "do()" + string.Join("", System.IO.File.ReadAllLines(inputName));
             string[] NewInput = RawInput.Split("don't()");
             long sum = 0;
-            foreach (var i in NewInput)
+            foreach (string i in NewInput)
             {
                 int index = i.IndexOf("do()");
                 if (index == -1)
                 {
                     continue;
                 }
-                string substring = i.Substring(index);
+                string substring = i[index..];
                 sum += Regex.Matches(substring, @"(?:mul\((\d*)\,(\d*)\))")
                 .Cast<Match>()
                 .Select(match => int.Parse(match.Groups[1].Value) * int.Parse(match.Groups[2].Value))

@@ -10,7 +10,7 @@
             List<List<int>> updates = [];
 
             bool hitDivider = false;
-            foreach (var l in RawInput)
+            foreach (string l in RawInput)
             {
                 if (l.Length == 0)
                 {
@@ -37,17 +37,17 @@
 
         public string Part1(string inputName)
         {
-            var inputs = GetData(inputName);
+            (Dictionary<int, List<int>>, List<List<int>>) inputs = GetData(inputName);
 
             Dictionary<int, List<int>> pageOrderingRules = inputs.Item1;
             List<List<int>> updates = inputs.Item2;
 
             int sum = 0;
-            foreach (var update in updates)
+            foreach (List<int> update in updates)
             {
                 HashSet<int> mustBeBefore = [];
                 bool isValid = true;
-                foreach (var page in update)
+                foreach (int page in update)
                 {
                     if (mustBeBefore.Contains(page))
                     {
@@ -63,17 +63,17 @@
 
         public string Part2(string inputName)
         {
-            var inputs = GetData(inputName);
+            (Dictionary<int, List<int>>, List<List<int>>) inputs = GetData(inputName);
 
             Dictionary<int, List<int>> pageOrderingRules = inputs.Item1;
             List<List<int>> updates = inputs.Item2;
 
             int sum = 0;
-            foreach (var update in updates)
+            foreach (List<int> update in updates)
             {
                 HashSet<int> mustBeBefore = [];
                 bool isValid = true;
-                foreach (var page in update)
+                foreach (int page in update)
                 {
                     if (mustBeBefore.Contains(page))
                     {
@@ -86,7 +86,7 @@
                 {
                     continue;
                 }
-                foreach (var page in update)
+                foreach (int page in update)
                 {
                     if (pageOrderingRules[page].Intersect(update).Count() == update.Count / 2)
                     {

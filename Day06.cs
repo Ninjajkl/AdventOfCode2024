@@ -122,7 +122,7 @@
         public bool willObstruct(string[] Map, HashSet<(int r, int c)> rL, (int r, int c) guardL, (int lon, int lat) dir)
         {
             (int r, int c) gL = guardL;
-            HashSet<(int, int, int, int)> visited = new();
+            HashSet<(int, int, int, int)> visited = [];
             HashSet<(int r, int c)> rockLocations = new(rL)
             {
                 (gL.r + dir.lon, gL.c + dir.lat)
