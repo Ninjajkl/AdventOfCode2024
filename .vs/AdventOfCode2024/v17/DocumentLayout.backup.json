@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\inputs\\day10test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:inputs\\day10test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day09.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,18 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\daymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:daymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\adventofcode2024\\day07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Day10Test2.txt",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Inputs\\Day10Test2.txt",
+              "RelativeDocumentMoniker": "Inputs\\Day10Test2.txt",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Inputs\\Day10Test2.txt",
+              "RelativeToolTip": "Inputs\\Day10Test2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-10T15:40:52.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DayManager.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\DayManager.cs",
               "RelativeDocumentMoniker": "DayManager.cs",
@@ -66,77 +71,24 @@
               "RelativeToolTip": "DayManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:54:06.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T04:54:06.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Day01.cs",
-              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day01.cs",
-              "RelativeDocumentMoniker": "Day01.cs",
-              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day01.cs",
-              "RelativeToolTip": "Day01.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:54:49.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Day02.cs",
-              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day02.cs",
-              "RelativeDocumentMoniker": "Day02.cs",
-              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day02.cs",
-              "RelativeToolTip": "Day02.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T23:52:30.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Day03.cs",
-              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day03.cs",
-              "RelativeDocumentMoniker": "Day03.cs",
-              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day03.cs",
-              "RelativeToolTip": "Day03.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T22:16:01.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Day04.cs",
-              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day04.cs",
-              "RelativeDocumentMoniker": "Day04.cs",
-              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day04.cs",
-              "RelativeToolTip": "Day04.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:21:50.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Day05.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day05.cs",
               "RelativeDocumentMoniker": "Day05.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day05.cs",
               "RelativeToolTip": "Day05.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAiwAkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T21:57:10.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Day06.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day06.cs",
               "RelativeDocumentMoniker": "Day06.cs",
@@ -149,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Day07.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day07.cs",
               "RelativeDocumentMoniker": "Day07.cs",
@@ -157,12 +109,11 @@
               "RelativeToolTip": "Day07.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T04:28:07.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T04:28:07.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Day08.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day08.cs",
               "RelativeDocumentMoniker": "Day08.cs",
@@ -170,20 +121,32 @@
               "RelativeToolTip": "Day08.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T05:13:23.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T05:13:23.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Day09.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day09.cs",
               "RelativeDocumentMoniker": "Day09.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day09.cs",
               "RelativeToolTip": "Day09.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAvwDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAADgvzsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T17:45:22.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Day10.cs",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day10.cs",
+              "RelativeDocumentMoniker": "Day10.cs",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\AdventOfCode2024\\Day10.cs",
+              "RelativeToolTip": "Day10.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwG4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:29:35.636Z",
               "EditorCaption": ""
             }
           ]
