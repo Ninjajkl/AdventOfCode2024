@@ -4,14 +4,14 @@
     {
         public string Part1(string inputName)
         {
-            string[] RawInput = System.IO.File.ReadAllLines(inputName);
+            string[] RawInput = File.ReadAllLines(inputName);
 
             return "";
         }
 
         public string Part2(string inputName)
         {
-            string[] RawInput = System.IO.File.ReadAllLines(inputName);
+            string[] RawInput = File.ReadAllLines(inputName);
 
             return "";
         }
