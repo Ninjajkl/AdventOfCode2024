@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\day14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\inputs\\day14test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:inputs\\day14test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\inputs\\day14input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:inputs\\day14input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\day13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\inputs\\day13input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:inputs\\day13input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\day01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:day01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\inputs\\day13test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|solutionrelative:inputs\\day13test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAD52DF7-059C-4FE8-86AA-9CCE5BCC9B55}|AdventOfCode2024.csproj|c:\\users\\ninja\\documents\\programming\\adventofcode\\adventofcode2024\\day12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DayManager.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\DayManager.cs",
               "RelativeDocumentMoniker": "DayManager.cs",
@@ -62,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Day01.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day01.cs",
               "RelativeDocumentMoniker": "Day01.cs",
@@ -70,12 +74,11 @@
               "RelativeToolTip": "Day01.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T17:22:37.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T17:22:37.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Day09.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day09.cs",
               "RelativeDocumentMoniker": "Day09.cs",
@@ -87,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Day10.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day10.cs",
               "RelativeDocumentMoniker": "Day10.cs",
@@ -99,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Day11.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day11.cs",
               "RelativeDocumentMoniker": "Day11.cs",
@@ -111,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Day12.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day12.cs",
               "RelativeDocumentMoniker": "Day12.cs",
@@ -119,46 +122,58 @@
               "RelativeToolTip": "Day12.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAkwAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T16:00:12.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T16:00:12.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Day13.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day13.cs",
               "RelativeDocumentMoniker": "Day13.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day13.cs",
               "RelativeToolTip": "Day13.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T16:36:45.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Day13Input.txt",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day13Input.txt",
-              "RelativeDocumentMoniker": "Inputs\\Day13Input.txt",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day13Input.txt",
-              "RelativeToolTip": "Inputs\\Day13Input.txt",
-              "ViewState": "AgIAAMQDAAAAAAAAAAAuwMwEAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-13T16:29:57.255Z",
+              "DocumentIndex": 0,
+              "Title": "Day14.cs",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day14.cs",
+              "RelativeDocumentMoniker": "Day14.cs",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Day14.cs",
+              "RelativeToolTip": "Day14.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwFgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T16:16:15.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Day13Test.txt",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day13Test.txt",
-              "RelativeDocumentMoniker": "Inputs\\Day13Test.txt",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day13Test.txt",
-              "RelativeToolTip": "Inputs\\Day13Test.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Day14Test.txt",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day14Test.txt",
+              "RelativeDocumentMoniker": "Inputs\\Day14Test.txt",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day14Test.txt",
+              "RelativeToolTip": "Inputs\\Day14Test.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-13T16:30:19.191Z",
+              "WhenOpened": "2024-12-14T16:37:30.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Day14Input.txt",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day14Input.txt",
+              "RelativeDocumentMoniker": "Inputs\\Day14Input.txt",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\AdventOfCode\\AdventOfCode2024\\Inputs\\Day14Input.txt",
+              "RelativeToolTip": "Inputs\\Day14Input.txt",
+              "ViewState": "AgIAALwBAAAAAAAAAAAewLIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-14T16:37:30.447Z",
               "EditorCaption": ""
             }
           ]
