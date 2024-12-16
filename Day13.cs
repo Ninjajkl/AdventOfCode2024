@@ -4,7 +4,7 @@ namespace AdventOfCode2024
 {
     internal class Day13
     {
-        const string pattern = @"(\d+)";
+        private const string pattern = @"(\d+)";
 
         public string Part1(string inputName)
         {
@@ -21,13 +21,13 @@ namespace AdventOfCode2024
                 int P1 = m[4];
                 int P2 = m[5];
 
-                float b = (A1 * P2 - A2 * P1) / (float)(B2 * A1 - A2 * B1);
-                float a = (P1 - B1*b) / (float)A1;
+                float b = ((A1 * P2) - (A2 * P1)) / (float)((B2 * A1) - (A2 * B1));
+                float a = (P1 - (B1*b)) / A1;
                 if (a != Math.Floor(a) || b != Math.Floor(b))
                 {
                     continue;
                 }
-                credits += 3*(int)a + (int)b;
+                credits += (3*(int)a) + (int)b;
             }
             return credits.ToString();
         }
@@ -47,13 +47,13 @@ namespace AdventOfCode2024
                 long P1 = m[4] + 10000000000000;
                 long P2 = m[5] + 10000000000000;
 
-                double b = (A1 * P2 - A2 * P1) / (double)(B2 * A1 - A2 * B1);
-                double a = (P1 - B1*b) / (double)A1;
+                double b = ((A1 * P2) - (A2 * P1)) / (double)((B2 * A1) - (A2 * B1));
+                double a = (P1 - (B1*b)) / A1;
                 if (a != Math.Floor(a) || b != Math.Floor(b))
                 {
                     continue;
                 }
-                credits += 3*(long)a + (long)b;
+                credits += (3*(long)a) + (long)b;
             }
             return credits.ToString();
         }

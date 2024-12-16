@@ -4,7 +4,7 @@ namespace AdventOfCode2024
 {
     internal class Day14
     {
-        const string pattern = @"(-?\d+)";
+        private const string pattern = @"(-?\d+)";
         public string Part1(string inputName)
         {
             string[] RawInput = File.ReadAllLines(inputName);
@@ -24,8 +24,8 @@ namespace AdventOfCode2024
                 (int x, int y) pos = (m[0], m[1]);
                 (int vx, int vy) vel = (m[2], m[3]);
 
-                int nextX = (((pos.x + vel.vx * steps) % height) + height) % height;
-                int nextY = (((pos.y + vel.vy * steps) % width) + width) % width;
+                int nextX = (((pos.x + (vel.vx * steps)) % height) + height) % height;
+                int nextY = (((pos.y + (vel.vy * steps)) % width) + width) % width;
 
                 switch ((nextX, nextY))
                 {
@@ -69,8 +69,8 @@ namespace AdventOfCode2024
                     (int x, int y) pos = (m[0], m[1]);
                     (int vx, int vy) vel = (m[2], m[3]);
 
-                    int nextX = (((pos.x + vel.vx * steps) % height) + height) % height;
-                    int nextY = (((pos.y + vel.vy * steps) % width) + width) % width;
+                    int nextX = (((pos.x + (vel.vx * steps)) % height) + height) % height;
+                    int nextY = (((pos.y + (vel.vy * steps)) % width) + width) % width;
 
                     xValues.Add(nextX);
                     yValues.Add(nextY);
@@ -98,13 +98,16 @@ namespace AdventOfCode2024
 
             for (int i = start; i < end; i++)
             {
-                variance += Math.Pow((values[i] - mean), 2);
+                variance += Math.Pow(values[i] - mean, 2);
             }
 
             int n = end - start;
-            if (start > 0) n -= 1;
+            if (start > 0)
+            {
+                n -= 1;
+            }
 
-            return variance / (n);
+            return variance / n;
         }
 
         public static double Mean(List<int> values)

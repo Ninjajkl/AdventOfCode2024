@@ -60,7 +60,7 @@
                         (r, c) = (robPos.r + dir.r, robPos.c + dir.c);
                         for (int i = 1; i <= boxesMove; i++)
                         {
-                            warehouse[r + dir.r * i, c + dir.c * i] = 'O';
+                            warehouse[r + (dir.r * i), c + (dir.c * i)] = 'O';
                         }
                         warehouse[r, c] = '@';
                         warehouse[robPos.r, robPos.c] = '.';
@@ -77,7 +77,7 @@
                 {
                     if (warehouse[i, j] == 'O')
                     {
-                        sum += 100 * i + j;
+                        sum += (100 * i) + j;
                     }
                 }
             }
@@ -104,17 +104,17 @@
                     if (tile is '#' or '.')
                     {
                         warehouse[r, c*2] = tile;
-                        warehouse[r, c*2+1] = tile;
+                        warehouse[r, (c*2)+1] = tile;
                     }
                     else if (tile is 'O')
                     {
                         warehouse[r, c*2] = '[';
-                        warehouse[r, c*2+1] = ']';
+                        warehouse[r, (c*2)+1] = ']';
                     }
                     else
                     {
                         warehouse[r, c*2] = '@';
-                        warehouse[r, c*2+1] = '.';
+                        warehouse[r, (c*2)+1] = '.';
                         robPos = (r, c*2);
                     }
                 }
@@ -164,7 +164,7 @@
                     boxLocs.Add((next.r, next.c));
                     unvisitedBoxes.Remove(next);
 
-                    List<(int r, int c)> posToCheck = isHorizontal ? dir.c == -1 ? [(next.r, next.c + dir.c)] : [(next.r, next.c + dir.c * 2)] : [(next.r + dir.r, next.c), (next.r + dir.r, next.c + 1)];
+                    List<(int r, int c)> posToCheck = isHorizontal ? dir.c == -1 ? [(next.r, next.c + dir.c)] : [(next.r, next.c + (dir.c * 2))] : [(next.r + dir.r, next.c), (next.r + dir.r, next.c + 1)];
 
                     foreach ((int r, int c) pos in posToCheck)
                     {
@@ -233,7 +233,7 @@
                 {
                     if (warehouse[i, j] == '[')
                     {
-                        sum += 100 * i + j;
+                        sum += (100 * i) + j;
                     }
                 }
             }
