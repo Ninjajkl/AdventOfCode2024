@@ -86,7 +86,7 @@ namespace AdventOfCode2024
                 foreach (long A in aList)
                 {
                     long aMin = A * 8;
-                    long aMax = A * 8 + 7;
+                    long aMax = (A * 8) + 7;
                     newAList.AddRange(SimulateRun(A, aMin, aMax, program[p], instructions));
                 }
                 aList = newAList;
@@ -122,14 +122,6 @@ namespace AdventOfCode2024
                             B = CO(operand, A, B, C) % 8;
                             break;
                         case 3: //jnz
-                            /*
-                            if (A == 0)
-                            {
-                                instructionPointer = 0;
-                                con
-                            }
-                            instructionPointer = A == 0 ? instructionPointer + 2 : operand;
-                            */
                             break;
                         case 4: //bxc
                             B ^= C;
@@ -165,7 +157,7 @@ namespace AdventOfCode2024
             return validA;
         }
 
-        public long CO(int operand, long A, long B, long C)
+        public static long CO(int operand, long A, long B, long C)
         {
             return operand switch
             {
